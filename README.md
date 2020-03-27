@@ -1,23 +1,23 @@
 
-# Liter
+## Introduction 
+Liter is a universal font in the spirit of German geometric grotesques. Created under the influence of modern grotesques — Futura and Graphik.
+
+The font has a low contrast and a slight difference in height between uppercase and lowercase characters. This allows you to use the font for the widest possible range of tasks: accidents, typing solid text, interface tasks, navigation.
+
+The structure includes Cyrillic, Latin, punctuation and special characters. And also very necessary and useful characters - case-sensitive characters, superscript and subscript numbers, fractions.
+
+At the moment, Liter — [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (is presented in one style regular/italic) by March 2020. But it is planned to expand to 7 styles.
+
+Font — an educational project by designer [Anton Skugarov](http://skugarov.com).
+
+## Comments, Contributions
+If you find a mistake, or want to give feedback write me an email <a href="mailto:kugiz@gmail.com">skugiz@gmail.com</a> or create [Issue](../../issues).
 
 
-There are 1 weights, each with a false Italic set.
- - Regular
-
-
-## Current Status
-Version 1.000
-
-
-## Copyright
-Copyright (c) 2020, Anton Skugarov (skugiz@gmail.com)
+## All the Thanks 
+Special thanks for the development of the project — [Aleksander Ivanin](https://vk.com/aliv65), [Alex Slobzheninov](https://www.instagram.com/slobzheninov/) and [Kate Symidi](https://www.instagram.com/symidi/).
 
 ## License
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+Liter is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
 
-
-python3 -m venv venv
-source venv/bin/activate
-pip install gftools
-gftools fix-hinting
+To view the copyright and specific terms and conditions please refer to [OFL.txt](OFL.txt).
