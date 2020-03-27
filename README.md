@@ -4,7 +4,7 @@ Liter is a universal font in the spirit of German geometric grotesques. Created 
 
 The font has a low contrast and a slight difference in height between uppercase and lowercase characters. This allows you to use the font for the widest possible range of tasks: accidents, typing solid text, interface tasks, navigation.
 
-The structure includes Cyrillic, Latin, punctuation and special characters. And also very necessary and useful characters - case-sensitive characters, superscript and subscript numbers, fractions.
+The structure includes Cyrillic, Latin, punctuation and special characters. And also very necessary and useful characters — case-sensitive characters, superscript and subscript numbers, fractions.
 
 At the moment, Liter — [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (is presented in one style regular/italic) by March 2020. But it is planned to expand to 7 styles.
 
