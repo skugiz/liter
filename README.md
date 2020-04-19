@@ -10,7 +10,7 @@ The structure includes Cyrillic, Latin, punctuation and special characters. And 
 
 At the moment, Liter — [minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product) (is presented in one style regular/italic) by March 2020. But it is planned to expand to 7 styles.
 
-Font — an educational project by designer [Anton Skugarov](http://skugarov.com).
+Font — experimental project by [Anton Skugarov](http://skugarov.com) created at [INNO](https://inno.llc).
 
 ## Comments, Contributions
 If you find a mistake, or want to give feedback write me an email <a href="mailto:kugiz@gmail.com">skugiz@gmail.com</a> or create [Issue](../../issues).
