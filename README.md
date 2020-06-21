@@ -2,7 +2,7 @@
 ## Introduction
 [![Sample](documentation/pic/samples-text.png)]()
 
-Liter is a universal font in the spirit of German geometric grotesques. Created under the influence of modern grotesques — Futura and Graphik.
+Liter is a universal font in the spirit of German neo-grotesques. 
 
 The font has a low contrast and a slight difference in height between uppercase and lowercase characters. This allows you to use the font for the widest possible range of tasks: accidents, typing solid text, interface tasks, navigation.
 
