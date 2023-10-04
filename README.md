@@ -21,7 +21,6 @@ Liter is a versatile uniwidth sans-serif typeface, offering both upright and ita
 Liter, designed by [Anton Skugarov](https://skugarov.com) & Alex Ivanin
 
 
-
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
