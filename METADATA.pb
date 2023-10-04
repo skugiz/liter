@@ -12,15 +12,6 @@ fonts {
   full_name: "Liter Regular"
   copyright: "Copyright 2020 The Liter Project Authors (https://github.com/skugiz/liter)"
 }
-fonts {
-  name: "Liter"
-  style: "italic"
-  weight: 400
-  filename: "Liter-Italic.ttf"
-  post_script_name: "Liter-Italic"
-  full_name: "Liter Italic"
-  copyright: "Copyright 2020 The Liter Project Authors (https://github.com/skugiz/liter)"
-}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

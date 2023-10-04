@@ -1,4 +1,4 @@
-Copyright (c) 2016-2019 The Liter Project Authors (skugiz@gmail.com)
+Copyright 2023 The Liter Project Authors (http://github.com/skugiz/liter)
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
