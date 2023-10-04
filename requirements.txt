@@ -1,4 +1,6 @@
 absl-py==1.4.0
+sh>=1.14.2
+gftools[qa]>=0.9.23
 appdirs==1.4.4
 attrs==23.1.0
 axisregistry==0.4.3
@@ -38,7 +40,6 @@ fonttools==4.42.0
 freetype-py==2.3.0
 fs==2.4.16
 gflanguages==0.5.4
-gftools==0.9.33
 gitdb==4.0.10
 GitPython==3.1.32
 glyphsets==0.6.2
@@ -88,7 +89,6 @@ resvg-cli==0.22.0.post3
 rich==13.5.2
 rstr==3.2.1
 selenium==4.11.2
-sh==2.0.6
 six==1.16.0
 skia-pathops==0.8.0
 skia-python==87.5
