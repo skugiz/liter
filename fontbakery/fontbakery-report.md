@@ -2,14 +2,10 @@
 
 fontbakery version: 0.9.2
 
-<details><summary><b>[16] Liter-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+<details><summary><b>[13] Liter-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
-
-
-* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -24,17 +20,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, tai-le, math, syriac, coptic, canadian-aboriginal
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -46,21 +42,6 @@ fontbakery version: 0.9.2
  * U+0384 GREEK TONOS: try adding greek
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic`, `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -82,8 +63,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: B	Contours detected: 4	Expected: 2 or 3
 
 	- Glyph name: E	Contours detected: 2	Expected: 1
 
@@ -241,8 +220,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0411	Contours detected: 1	Expected: 2
 
-	- Glyph name: uni0412	Contours detected: 4	Expected: 3
-
 	- Glyph name: uni0415	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0416	Contours detected: 3	Expected: 1
@@ -332,8 +309,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: AE	Contours detected: 4	Expected: 2
-
-	- Glyph name: B	Contours detected: 4	Expected: 2 or 3
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -488,8 +463,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni040F	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0411	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0412	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0415	Contours detected: 2	Expected: 1
 
@@ -648,6 +621,10 @@ multiply
 	* adieresis (U+00E4): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* aring (U+00E5): X=285.5,Y=1.0 (should be at baseline 0?)
+
+	* ntilde (U+00F1): X=354.0,Y=699.5 (should be at cap-height 700?)
+
+	* otilde (U+00F5): X=361.0,Y=699.5 (should be at cap-height 700?)
 
 	* yacute (U+00FD): X=221.0,Y=2.0 (should be at baseline 0?)
 
@@ -834,8 +811,8 @@ multiply
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 1 | 14 | 122 | 7 | 104 | 0 |
-| 0% | 0% | 6% | 49% | 3% | 42% | 0% |
+| 1 | 0 | 12 | 122 | 7 | 107 | 0 |
+| 0% | 0% | 5% | 49% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
