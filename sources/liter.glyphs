@@ -40,19 +40,7 @@ $4577
 "ä",
 "ė",
 "ē",
-"è",
-"ў",
-"й",
-"д",
-A,
-"­",
-"Ď",
-"ď",
-L,
-B,
-K,
-b,
-k
+"д"
 );
 customParameters = (
 {
@@ -9956,7 +9944,7 @@ unicode = 1169;
 glyphname = "de-cy";
 kernLeft = o;
 kernRight = v;
-lastChange = "2023-10-04 20:23:32 +0000";
+lastChange = "2023-10-04 20:39:17 +0000";
 layers = (
 {
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";

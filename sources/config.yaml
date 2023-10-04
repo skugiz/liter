@@ -3,7 +3,7 @@ buildVariable: false
 buildTTF: true
 buildOTF: false
 buildWebfont: true
-removeOutlineOverlaps: false
+# removeOutlineOverlaps: false
 sources:
   - liter.glyphs
 familyName: Liter
