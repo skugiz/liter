@@ -127,17 +127,17 @@ ul {
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>1</td>
                 <td>0</td>
-                <td>13</td>
+                <td>0</td>
+                <td>14</td>
                 <td>122</td>
                 <td>7</td>
                 <td>106</td>
             </tr>
             <tr>
-                <td>1%</td>
                 <td>0%</td>
-                <td>7%</td>
+                <td>0%</td>
+                <td>8%</td>
                 <td>67%</td>
                 <td>4%</td>
                 <td>58%</td>
@@ -187,9 +187,9 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, tai-le, canadian-aboriginal, malayalam, syriac, math, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, tai-le, tifinagh, canadian-aboriginal, malayalam, coptic, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -755,7 +755,7 @@ multiply
 </code></pre>
 </span></li></ul></div></details>
 <h2>Section: Shaping Checks</h2>
-<span class='section__emoji'>💥⚠️⏩⏩⏩</span>
+<span class='section__emoji'>⚠️⚠️⏩⏩⏩</span>
 <h3>Ensure dotted circle glyph is present and can attach marks.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
 
@@ -764,7 +764,9 @@ multiply
 <h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
 
-<details><summary>💥 Liter-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
+<details><summary>⚠️ Liter-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̒ i̦̒ i̧̒ i̵̒ i̶̒ i̷̒ i̸̒ j̒ j̦̒ j̧̒ j̵̒ j̶̒ j̷̒ j̸̒ į̒ į̦̒ į̧̒ į̵̒ į̶̒ į̷̒</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
