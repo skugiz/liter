@@ -1,0 +1,10 @@
+buildStatic: true
+buildVariable: false
+buildTTF: true
+buildOTF: false
+buildWebfont: true
+sources:
+  - liter.glyphs
+axisOrder:
+  - wght
+familyName: Liter
