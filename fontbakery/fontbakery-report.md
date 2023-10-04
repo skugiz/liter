@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.2
 
-<details><summary><b>[13] Liter-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+<details><summary><b>[14] Liter-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
@@ -20,17 +20,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tifinagh, coptic, tai-le, math, syriac, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -62,77 +62,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: E	Contours detected: 2	Expected: 1
-
-	- Glyph name: F	Contours detected: 2	Expected: 1
-
-	- Glyph name: H	Contours detected: 3	Expected: 1
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
-	- Glyph name: T	Contours detected: 2	Expected: 1
-
-	- Glyph name: X	Contours detected: 3	Expected: 1
-
-	- Glyph name: Y	Contours detected: 2	Expected: 1
-
-	- Glyph name: a	Contours detected: 1	Expected: 2
-
-	- Glyph name: e	Contours detected: 1	Expected: 2
-
-	- Glyph name: f	Contours detected: 2	Expected: 1
-
-	- Glyph name: m	Contours detected: 3	Expected: 1
-
-	- Glyph name: t	Contours detected: 2	Expected: 1
-
-	- Glyph name: x	Contours detected: 3	Expected: 1
-
-	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
-
-	- Glyph name: ordfeminine	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: Q	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: AE	Contours detected: 4	Expected: 2
-
-	- Glyph name: Egrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 4	Expected: 3
-
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: agrave	Contours detected: 2	Expected: 3
-
-	- Glyph name: aacute	Contours detected: 2	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 2	Expected: 3
-
-	- Glyph name: atilde	Contours detected: 2	Expected: 3
-
-	- Glyph name: adieresis	Contours detected: 3	Expected: 4
-
-	- Glyph name: aring	Contours detected: 3	Expected: 4
-
-	- Glyph name: ae	Contours detected: 2	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 2	Expected: 3
-
-	- Glyph name: eacute	Contours detected: 2	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 3	Expected: 4
 
 	- Glyph name: igrave	Contours detected: 1	Expected: 2
 
@@ -142,33 +76,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: idieresis	Contours detected: 2	Expected: 3
 
-	- Glyph name: eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 3	Expected: 2
-
-	- Glyph name: amacron	Contours detected: 2	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 2	Expected: 3
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: emacron	Contours detected: 2	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
-
-	- Glyph name: Eogonek	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: Ecaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ecaron	Contours detected: 2	Expected: 3
-
-	- Glyph name: Hbar	Contours detected: 4	Expected: 2
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -180,239 +94,39 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Eng	Contours detected: 2	Expected: 1
 
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: OE	Contours detected: 4	Expected: 2
-
-	- Glyph name: oe	Contours detected: 5	Expected: 3
-
-	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: tcaron	Contours detected: 3	Expected: 2
+	- Glyph name: OE	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
+	- Glyph name: uni0409	Contours detected: 3	Expected: 2
 
-	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
+	- Glyph name: uni040A	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni021A	Contours detected: 3	Expected: 2
+	- Glyph name: uni0459	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni021B	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0400	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0401	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni0402	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0404	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni040A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni040B	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni040C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni040F	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0411	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0415	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0416	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni041A	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni041D	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0422	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0425	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0426	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0427	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0428	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0429	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni042A	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni042B	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni042C	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni042D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni042E	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0430	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0432	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0435	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0436	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni043A	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni043D	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0442	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0445	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0446	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0447	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0448	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0449	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni044A	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni044B	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni044C	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni044D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni044E	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0450	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0451	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0452	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0454	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni045A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni045B	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni045C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni045F	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: Geupturncy	Contours detected: 2	Expected: 1
-
-	- Glyph name: geupturncy	Contours detected: 2	Expected: 1
-
-	- Glyph name: Ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: AE	Contours detected: 4	Expected: 2
+	- Glyph name: uni045A	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: E	Contours detected: 2	Expected: 1
-
-	- Glyph name: Eacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: Egrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 3	Expected: 2
-
 	- Glyph name: Eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
-	- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: F	Contours detected: 2	Expected: 1
-
-	- Glyph name: H	Contours detected: 3	Expected: 1
-
-	- Glyph name: Hbar	Contours detected: 4	Expected: 2
-
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: OE	Contours detected: 4	Expected: 2
+	- Glyph name: OE	Contours detected: 3	Expected: 2
 
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
-	- Glyph name: T	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
+	- Glyph name: Q	Contours detected: 1	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: X	Contours detected: 3	Expected: 1
-
-	- Glyph name: Y	Contours detected: 2	Expected: 1
-
-	- Glyph name: Yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: a	Contours detected: 1	Expected: 2
-
-	- Glyph name: aacute	Contours detected: 2	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 2	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 2	Expected: 3
-
-	- Glyph name: adieresis	Contours detected: 3	Expected: 4
-
-	- Glyph name: ae	Contours detected: 2	Expected: 3
-
-	- Glyph name: agrave	Contours detected: 2	Expected: 3
-
-	- Glyph name: amacron	Contours detected: 2	Expected: 3
-
-	- Glyph name: aring	Contours detected: 3	Expected: 4
-
-	- Glyph name: atilde	Contours detected: 2	Expected: 3
-
-	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: e	Contours detected: 1	Expected: 2
-
-	- Glyph name: eacute	Contours detected: 2	Expected: 3
-
-	- Glyph name: ecaron	Contours detected: 2	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
-
-	- Glyph name: edieresis	Contours detected: 3	Expected: 4
-
-	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 2	Expected: 3
-
-	- Glyph name: emacron	Contours detected: 2	Expected: 3
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: f	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -428,127 +142,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: m	Contours detected: 3	Expected: 1
-
-	- Glyph name: oe	Contours detected: 5	Expected: 3
-
-	- Glyph name: ordfeminine	Contours detected: 1	Expected: 2 or 3
-
-	- Glyph name: t	Contours detected: 2	Expected: 1
-
-	- Glyph name: tcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: uni021A	Contours detected: 3	Expected: 2
+	- Glyph name: uni0409	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni021B	Contours detected: 3	Expected: 2
+	- Glyph name: uni040A	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0400	Contours detected: 3	Expected: 2
+	- Glyph name: uni0459	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0401	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni0402	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0404	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni040A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni040B	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni040C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni040F	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0411	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0415	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0416	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni041A	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni041D	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0422	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0425	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0426	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0427	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0428	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0429	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni042A	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni042B	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni042C	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni042D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni042E	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0430	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0432	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0435	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0436	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni043A	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni043D	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0442	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0445	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0446	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0447	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0448	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0449	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni044A	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni044B	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni044C	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni044D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni044E	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0450	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0451	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni0452	Contours detected: 3	Expected: 1
-
-	- Glyph name: uni0454	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni045A	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni045B	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni045C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni045F	Contours detected: 3	Expected: 1 or 2
+	- Glyph name: uni045A	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: x	Contours detected: 3	Expected: 1
-
-	- Glyph name: yen	Contours detected: 4	Expected: 1 or 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -622,9 +226,13 @@ multiply
 
 	* aring (U+00E5): X=285.5,Y=1.0 (should be at baseline 0?)
 
+	* eth (U+00F0): X=250.5,Y=700.5 (should be at cap-height 700?)
+
 	* ntilde (U+00F1): X=354.0,Y=699.5 (should be at cap-height 700?)
 
 	* otilde (U+00F5): X=361.0,Y=699.5 (should be at cap-height 700?)
+
+	* oslash (U+00F8): X=191.5,Y=1.0 (should be at baseline 0?)
 
 	* yacute (U+00FD): X=221.0,Y=2.0 (should be at baseline 0?)
 
@@ -640,27 +248,25 @@ multiply
 
 	* Lcaron (U+013D): X=403.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=403.0,Y=699.0 (should be at cap-height 700?)
-
 	* Lcaron (U+013D): X=517.0,Y=699.0 (should be at cap-height 700?)
-
-	* OE (U+0152): X=1044.0,Y=701.0 (should be at cap-height 700?)
-
-	* OE (U+0152): X=598.0,Y=701.0 (should be at cap-height 700?)
-
-	* OE (U+0152): X=598.0,Y=1.0 (should be at baseline 0?)
 
 	* OE (U+0152): X=1044.0,Y=1.0 (should be at baseline 0?)
 
-	* ycircumflex (U+0177): X=221.0,Y=2.0 (should be at baseline 0?)
+	* OE (U+0152): X=598.0,Y=1.0 (should be at baseline 0?)
 
-	* uni02BC (U+02BC): X=148.0,Y=698.0 (should be at cap-height 700?)
+	* OE (U+0152): X=598.0,Y=701.0 (should be at cap-height 700?)
+
+	* OE (U+0152): X=1044.0,Y=701.0 (should be at cap-height 700?)
+
+	* ycircumflex (U+0177): X=221.0,Y=2.0 (should be at baseline 0?)
 
 	* uni02BC (U+02BC): X=148.0,Y=698.0 (should be at cap-height 700?)
 
 	* uni02BC (U+02BC): X=262.0,Y=698.0 (should be at cap-height 700?)
 
 	* tildecomb (U+0303): X=198.5,Y=701.0 (should be at cap-height 700?)
+
+	* uni0402 (U+0402): X=345.0,Y=2.0 (should be at baseline 0?)
 
 	* uni0409 (U+0409): X=36.0,Y=-2.0 (should be at baseline 0?)
 
@@ -689,20 +295,196 @@ multiply
 	* uni1E9E (U+1E9E): X=277.0,Y=1.0 (should be at baseline 0?)
 
 	* ygrave (U+1EF3): X=221.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* uni0434 (U+0434): L<<151.0,73.0>--<46.0,73.0>>/B<<46.0,73.0>-<75.0,80.0>-<93.5,128.0>> = 13.570434385161475 [code: found-jaggy-segments]
+	* ampersand (U+0026) contains a short segment B<<217.5,389.0>-<224.0,393.0>-<228.0,394.0>>
+
+	* four (U+0034) contains a short segment L<<382.0,620.0>--<376.0,620.0>>
+
+	* M (U+004D) contains a short segment L<<446.0,118.0>--<448.0,118.0>>
+
+	* M (U+004D) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
+
+	* Q (U+0051) contains a short segment B<<513.0,22.0>-<525.0,28.0>-<536.0,35.0>>
+
+	* a (U+0061) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* b (U+0062) contains a short segment L<<148.0,452.0>--<150.0,452.0>>
+
+	* d (U+0064) contains a short segment L<<432.0,66.0>--<430.0,66.0>>
+
+	* e (U+0065) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* g (U+0067) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
+
+	* h (U+0068) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* m (U+006D) contains a short segment L<<468.0,334.0>--<468.0,334.0>>
+
+	* m (U+006D) contains a short segment B<<468.0,334.0>-<468.0,332.0>-<468.0,330.0>>
+
+	* n (U+006E) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* p (U+0070) contains a short segment L<<146.0,453.0>--<148.0,453.0>>
+
+	* q (U+0071) contains a short segment L<<429.0,68.0>--<427.0,68.0>>
+
+	* r (U+0072) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
+
+	* u (U+0075) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* section (U+00A7) contains a short segment L<<203.0,403.0>--<201.0,403.0>>
+
+	* ordfeminine (U+00AA) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* AE (U+00C6) contains a short segment L<<470.0,602.0>--<465.0,602.0>>
+
+	* agrave (U+00E0) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* aacute (U+00E1) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* acircumflex (U+00E2) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* atilde (U+00E3) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* adieresis (U+00E4) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* aring (U+00E5) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* ae (U+00E6) contains a short segment L<<459.0,236.0>--<459.0,234.0>>
+
+	* egrave (U+00E8) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* eacute (U+00E9) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* ecircumflex (U+00EA) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* edieresis (U+00EB) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* ntilde (U+00F1) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* ugrave (U+00F9) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* uacute (U+00FA) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* ucircumflex (U+00FB) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* udieresis (U+00FC) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* thorn (U+00FE) contains a short segment L<<146.0,453.0>--<148.0,453.0>>
+
+	* amacron (U+0101) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* abreve (U+0103) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* aogonek (U+0105) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* dcaron (U+010F) contains a short segment L<<432.0,66.0>--<430.0,66.0>>
+
+	* dcroat (U+0111) contains a short segment L<<432.0,66.0>--<430.0,66.0>>
+
+	* emacron (U+0113) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* edotaccent (U+0117) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* eogonek (U+0119) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* ecaron (U+011B) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* gbreve (U+011F) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
+
+	* gdotaccent (U+0121) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
+
+	* uni0123 (U+0123) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
+
+	* hbar (U+0127) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* nacute (U+0144) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* uni0146 (U+0146) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* ncaron (U+0148) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* eng (U+014B) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* oe (U+0153) contains a short segment L<<522.0,236.0>--<522.0,234.0>>
+
+	* racute (U+0155) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
+
+	* uni0157 (U+0157) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
+
+	* rcaron (U+0159) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
+
+	* umacron (U+016B) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* ubreve (U+016D) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* uring (U+016F) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* uhungarumlaut (U+0171) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* uogonek (U+0173) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
+
+	* uni0402 (U+0402) contains a short segment L<<345.0,2.0>--<346.0,0.0>>
+
+	* uni0402 (U+0402) contains a short segment L<<345.0,368.0>--<347.0,368.0>>
+
+	* uni0409 (U+0409) contains a short segment L<<10.0,81.0>--<25.0,81.0>>
+
+	* uni040B (U+040B) contains a short segment L<<345.0,379.0>--<346.0,379.0>>
+
+	* uni041B (U+041B) contains a short segment L<<10.0,81.0>--<25.0,81.0>>
+
+	* uni041C (U+041C) contains a short segment L<<446.0,118.0>--<448.0,118.0>>
+
+	* uni041C (U+041C) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
+
+	* uni0430 (U+0430) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
+	* uni0435 (U+0435) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* uni043B (U+043B) contains a short segment L<<12.0,76.0>--<26.0,76.0>>
+
+	* uni043C (U+043C) contains a short segment L<<349.0,102.0>--<352.0,102.0>>
+
+	* uni043C (U+043C) contains a short segment L<<147.0,377.0>--<144.0,377.0>>
+
+	* uni0440 (U+0440) contains a short segment L<<146.0,453.0>--<148.0,453.0>>
+
+	* uni0450 (U+0450) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* uni0451 (U+0451) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* uni0452 (U+0452) contains a short segment L<<256.0,464.0>--<258.0,464.0>>
+
+	* uni0452 (U+0452) contains a short segment L<<420.0,-114.0>--<440.0,-114.0>>
+
+	* uni0459 (U+0459) contains a short segment L<<12.0,76.0>--<26.0,76.0>>
+
+	* uni045B (U+045B) contains a short segment L<<256.0,464.0>--<258.0,464.0>>
+
+	* Euro (U+20AC) contains a short segment B<<124.0,352.0>-<124.0,365.0>-<125.0,377.0>>
+
+	* Euro (U+20AC) contains a short segment B<<209.0,377.0>-<209.0,365.0>-<209.0,352.0>>
+
+	* trademark (U+2122) contains a short segment L<<546.0,418.0>--<548.0,418.0>>
+
+	* trademark (U+2122) contains a short segment L<<408.0,632.0>--<406.0,632.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* section (U+00A7): L<<208.0,224.0>--<321.0,204.0>> -> L<<321.0,204.0>--<329.0,202.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* AE (U+00C6): L<<228.0,187.0>--<470.0,186.0>>
-
-	* AE (U+00C6): L<<559.0,0.0>--<560.0,700.0>>
+	* AE (U+00C6): L<<470.0,186.0>--<228.0,187.0>>
 
 	* Eng (U+014A): L<<559.0,358.0>--<557.0,700.0>>
 
@@ -754,7 +536,7 @@ multiply
 
 	* q (U+0071): L<<427.0,-200.0>--<429.0,68.0>>
 
-	* sterling (U+00A3): L<<162.0,82.0>--<526.0,84.0>>
+	* sterling (U+00A3): L<<206.0,82.0>--<526.0,84.0>>
 
 	* sterling (U+00A3): L<<526.0,2.0>--<50.0,0.0>>
 
@@ -780,15 +562,15 @@ multiply
 
 	* uni041C (U+041C): L<<716.0,0.0>--<718.0,332.0>>
 
-	* uni0434 (U+0434): L<<414.0,60.0>--<416.0,480.0>>
+	* uni0434 (U+0434): L<<414.0,78.0>--<416.0,444.0>>
 
-	* uni0434 (U+0434): L<<502.0,520.0>--<500.0,60.0>>
+	* uni0434 (U+0434): L<<502.0,520.0>--<500.0,78.0>>
 
 	* uni0440 (U+0440): L<<148.0,68.0>--<150.0,-200.0>>
 
-	* uni0442 (U+0442): L<<194.0,0.0>--<196.0,474.0>>
+	* uni0442 (U+0442): L<<194.0,0.0>--<196.0,444.0>>
 
-	* uni0442 (U+0442): L<<282.0,474.0>--<280.0,0.0>>
+	* uni0442 (U+0442): L<<282.0,444.0>--<280.0,0.0>>
 
 	* uni0456 (U+0456): L<<76.0,0.0>--<75.0,520.0>>
 
@@ -798,9 +580,9 @@ multiply
 
 	* uni2116 (U+2116): L<<86.0,0.0>--<87.0,700.0>>
 
-	* yen (U+00A5): L<<264.0,0.0>--<262.0,306.0>>
+	* yen (U+00A5): L<<264.0,0.0>--<263.0,116.0>>
 
-	* yen (U+00A5): L<<356.0,306.0>--<354.0,0.0>> [code: found-semi-vertical]
+	* yen (U+00A5): L<<355.0,116.0>--<354.0,0.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -811,7 +593,7 @@ multiply
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 12 | 122 | 7 | 107 | 0 |
+| 1 | 0 | 13 | 122 | 7 | 106 | 0 |
 | 0% | 0% | 5% | 49% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
