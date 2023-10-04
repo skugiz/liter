@@ -40,7 +40,8 @@ $4577
 "ä",
 "ė",
 "ē",
-"д"
+"д",
+"í"
 );
 customParameters = (
 {
@@ -5827,13 +5828,13 @@ unicode = 305;
 },
 {
 glyphname = iacute;
-lastChange = "2023-10-04 20:21:45 +0000";
+lastChange = "2023-10-04 21:16:48 +0000";
 layers = (
 {
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 shapes = (
 {
-pos = (6,0);
+pos = (-9,0);
 ref = acutecomb;
 }
 );
@@ -14582,7 +14583,7 @@ unicode = 165;
 },
 {
 glyphname = plus;
-lastChange = "2023-10-04 19:05:45 +0000";
+lastChange = "2023-10-04 21:20:06 +0000";
 layers = (
 {
 guides = (
@@ -14609,7 +14610,6 @@ nodes = (
 (556,272,l),
 (556,349,l),
 (338,349,l),
-(338,580,l),
 (338,580,l)
 );
 }
@@ -14624,7 +14624,7 @@ unicode = 43;
 glyphname = minus;
 kernLeft = strokeshortcomb;
 kernRight = strokeshortcomb;
-lastChange = "2023-10-04 19:05:45 +0000";
+lastChange = "2023-10-04 21:20:04 +0000";
 layers = (
 {
 guides = (
@@ -14643,7 +14643,6 @@ nodes = (
 (516,350,l),
 (37,349,l),
 (37,272,l),
-(516,272,l),
 (516,272,l)
 );
 }
@@ -14718,7 +14717,7 @@ unicode = 61;
 },
 {
 glyphname = greater;
-lastChange = "2023-10-04 19:05:45 +0000";
+lastChange = "2023-10-04 21:19:59 +0000";
 layers = (
 {
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
@@ -14732,7 +14731,6 @@ nodes = (
 (36,162,l),
 (36,80,l),
 (461,277,l),
-(461,352,l),
 (461,352,l)
 );
 }
