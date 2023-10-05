@@ -12,6 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2FUniversal.json
 
+![Sample Image](documentation/Liter-Promo.png)
 
 Liter font is neo-grotesque in the spirit of the Swiss school of the new generation. At the beginning it was created for digital screens, and worked excellently in small font sizes 14-16. Designed to be a typesetting workhorse It has low contrast and little difference in height between uppercase and lowercase characters. Supports Cyrillic and Latin alphabet
 
