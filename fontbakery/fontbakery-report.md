@@ -21,12 +21,12 @@ fontbakery version: 0.9.2
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, tai-le, tifinagh, canadian-aboriginal, malayalam, coptic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, math, tai-le, old-permic, syriac, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -57,8 +57,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: Q	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
@@ -113,8 +111,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 	- Glyph name: OE	Contours detected: 3	Expected: 2
-
-	- Glyph name: Q	Contours detected: 1	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -296,15 +292,11 @@ multiply
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* ampersand (U+0026) contains a short segment B<<217.5,389.0>-<224.0,393.0>-<228.0,394.0>>
-
 	* four (U+0034) contains a short segment L<<382.0,620.0>--<376.0,620.0>>
 
 	* M (U+004D) contains a short segment L<<446.0,118.0>--<448.0,118.0>>
 
 	* M (U+004D) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
-
-	* Q (U+0051) contains a short segment B<<513.0,22.0>-<525.0,28.0>-<536.0,35.0>>
 
 	* a (U+0061) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
 
@@ -504,6 +496,8 @@ multiply
 
 	* Ntilde (U+00D1): L<<86.0,0.0>--<87.0,700.0>>
 
+	* ampersand (U+0026): L<<664.0,370.0>--<665.0,255.0>>
+
 	* divide (U+00F7): L<<37.0,349.0>--<516.0,350.0>>
 
 	* dotlessi (U+0131): L<<76.0,0.0>--<75.0,520.0>>
@@ -590,7 +584,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
