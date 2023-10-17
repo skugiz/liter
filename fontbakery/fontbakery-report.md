@@ -11,14 +11,14 @@ fontbakery version: 0.10.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, malayalam, tifinagh, canadian-aboriginal, math, tai-le
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, canadian-aboriginal, math, tifinagh, coptic, old-permic, malayalam, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -185,7 +185,7 @@ multiply
 
 	* copyright (U+00A9): X=570.0,Y=1.5 (should be at baseline 0?)
 
-	* copyright (U+00A9): X=313.5,Y=1.5 (should be at baseline 0?)
+	* copyright (U+00A9): X=313.5,Y=2.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=285.5,Y=1.0 (should be at baseline 0?)
 
@@ -273,13 +273,13 @@ multiply
 
 	* uni043B (U+043B): X=36.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni043B (U+043B): X=12.0,Y=-2.0 (should be at baseline 0?)
+	* uni043B (U+043B): X=12.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni0443 (U+0443): X=221.0,Y=2.0 (should be at baseline 0?)
 
 	* uni0459 (U+0459): X=36.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni0459 (U+0459): X=12.0,Y=-2.0 (should be at baseline 0?)
+	* uni0459 (U+0459): X=12.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni045E (U+045E): X=221.0,Y=2.0 (should be at baseline 0?)
 
@@ -421,9 +421,9 @@ multiply
 
 	* uni2116 (U+2116): L<<86.0,0.0>--<87.0,700.0>>
 
-	* yen (U+00A5): L<<264.0,0.0>--<263.0,116.0>>
+	* yen (U+00A5): L<<264.0,0.0>--<263.0,126.0>>
 
-	* yen (U+00A5): L<<355.0,116.0>--<354.0,0.0>> [code: found-semi-vertical]
+	* yen (U+00A5): L<<355.0,126.0>--<354.0,0.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -435,7 +435,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
