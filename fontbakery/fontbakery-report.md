@@ -1,13 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.9.2
+fontbakery version: 0.10.1
 
-<details><summary><b>[14] Liter-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+<details><summary><b>[13] Liter-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -16,17 +11,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, canadian-aboriginal, tifinagh, malayalam, syriac, old-permic, coptic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, old-permic, syriac, canadian-aboriginal, tai-le, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -38,6 +33,10 @@ fontbakery version: 0.9.2
  * U+0384 GREEK TONOS: try adding greek
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic`, `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.53x (1530) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -62,14 +61,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
-	- Glyph name: igrave	Contours detected: 1	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 1	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 1	Expected: 2
-
-	- Glyph name: idieresis	Contours detected: 2	Expected: 3
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
@@ -80,7 +71,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: imacron	Contours detected: 1	Expected: 2
+	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -122,15 +113,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: iacute	Contours detected: 1	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 1	Expected: 2
-
-	- Glyph name: idieresis	Contours detected: 2	Expected: 3
-
-	- Glyph name: igrave	Contours detected: 1	Expected: 2
-
-	- Glyph name: imacron	Contours detected: 1	Expected: 2
+	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -156,7 +139,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The most common width is 554 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:
 
-Width = 594:
+Width = 535:
 plus
 
 Width = 491:
@@ -206,6 +189,10 @@ multiply
 
 	* questiondown (U+00BF): X=334.0,Y=1.0 (should be at baseline 0?)
 
+	* Ccedilla (U+00C7): X=313.0,Y=1.0 (should be at baseline 0?)
+
+	* Ccedilla (U+00C7): X=409.0,Y=1.0 (should be at baseline 0?)
+
 	* agrave (U+00E0): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* aacute (U+00E1): X=285.5,Y=1.0 (should be at baseline 0?)
@@ -218,13 +205,17 @@ multiply
 
 	* aring (U+00E5): X=285.5,Y=1.0 (should be at baseline 0?)
 
+	* ccedilla (U+00E7): X=234.0,Y=-1.0 (should be at baseline 0?)
+
+	* ccedilla (U+00E7): X=330.0,Y=-1.0 (should be at baseline 0?)
+
 	* eth (U+00F0): X=250.5,Y=700.5 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=354.0,Y=699.5 (should be at cap-height 700?)
 
 	* otilde (U+00F5): X=361.0,Y=699.5 (should be at cap-height 700?)
 
-	* oslash (U+00F8): X=191.5,Y=1.0 (should be at baseline 0?)
+	* oslash (U+00F8): X=189.0,Y=1.5 (should be at baseline 0?)
 
 	* yacute (U+00FD): X=221.0,Y=2.0 (should be at baseline 0?)
 
@@ -251,6 +242,8 @@ multiply
 	* OE (U+0152): X=1044.0,Y=701.0 (should be at cap-height 700?)
 
 	* ycircumflex (U+0177): X=221.0,Y=2.0 (should be at baseline 0?)
+
+	* uni01CE (U+01CE): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* uni02BC (U+02BC): X=148.0,Y=698.0 (should be at cap-height 700?)
 
@@ -294,7 +287,7 @@ multiply
 
 	* four (U+0034) contains a short segment L<<382.0,620.0>--<376.0,620.0>>
 
-	* M (U+004D) contains a short segment L<<446.0,118.0>--<448.0,118.0>>
+	* M (U+004D) contains a short segment L<<445.0,118.0>--<448.0,118.0>>
 
 	* M (U+004D) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
 
@@ -323,8 +316,6 @@ multiply
 	* r (U+0072) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
 
 	* u (U+0075) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* section (U+00A7) contains a short segment L<<203.0,403.0>--<201.0,403.0>>
 
 	* ordfeminine (U+00AA) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
 
@@ -416,6 +407,8 @@ multiply
 
 	* uogonek (U+0173) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
 
+	* uni01CE (U+01CE) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
+
 	* uni0402 (U+0402) contains a short segment L<<345.0,368.0>--<347.0,368.0>>
 
 	* uni0402 (U+0402) contains a short segment L<<345.0,2.0>--<346.0,0.0>>
@@ -426,7 +419,7 @@ multiply
 
 	* uni041B (U+041B) contains a short segment L<<10.0,81.0>--<25.0,81.0>>
 
-	* uni041C (U+041C) contains a short segment L<<446.0,118.0>--<448.0,118.0>>
+	* uni041C (U+041C) contains a short segment L<<445.0,118.0>--<448.0,118.0>>
 
 	* uni041C (U+041C) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
 
@@ -461,12 +454,6 @@ multiply
 	* trademark (U+2122) contains a short segment L<<546.0,418.0>--<548.0,418.0>>
 
 	* trademark (U+2122) contains a short segment L<<408.0,632.0>--<406.0,632.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* section (U+00A7): L<<208.0,224.0>--<321.0,204.0>> -> L<<321.0,204.0>--<329.0,202.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -508,9 +495,17 @@ multiply
 
 	* i (U+0069): L<<78.0,0.0>--<77.0,520.0>>
 
-	* ij (U+0133): L<<78.0,0.0>--<77.0,520.0>>
+	* iacute (U+00ED): L<<66.0,0.0>--<65.0,520.0>>
 
-	* iogonek (U+012F): L<<156.0,0.0>--<155.0,520.0>>
+	* icircumflex (U+00EE): L<<75.0,0.0>--<74.0,520.0>>
+
+	* idieresis (U+00EF): L<<86.0,0.0>--<85.0,520.0>>
+
+	* igrave (U+00EC): L<<28.0,0.0>--<27.0,520.0>>
+
+	* imacron (U+012B): L<<125.0,0.0>--<124.0,520.0>>
+
+	* iogonek (U+012F): L<<146.0,0.0>--<145.0,520.0>>
 
 	* l (U+006C): L<<76.0,0.0>--<75.0,733.0>>
 
@@ -518,7 +513,7 @@ multiply
 
 	* lcaron (U+013E): L<<76.0,0.0>--<75.0,733.0>>
 
-	* lslash (U+0142): L<<76.0,0.0>--<75.0,733.0>>
+	* lslash (U+0142): L<<119.0,0.0>--<118.0,733.0>>
 
 	* minus (U+2212): L<<37.0,349.0>--<516.0,350.0>>
 
@@ -584,15 +579,15 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 14 | 122 | 7 | 106 | 0 |
-| 0% | 0% | 6% | 49% | 3% | 43% | 0% |
+| 0 | 0 | 13 | 123 | 7 | 109 | 0 |
+| 0% | 0% | 5% | 49% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
