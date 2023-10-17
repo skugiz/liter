@@ -18,7 +18,7 @@ Liter font is neo-grotesque in the spirit of the Swiss school of the new generat
 
 ## About
 
-Liter, designed by [Anton Skugarov](https://skugarov.com) & Alex Ivanin
+Liter, designed by [Anton Skugarov](https://skugarov.com) & Aleksander Ivanin
 
 
 ## Building
