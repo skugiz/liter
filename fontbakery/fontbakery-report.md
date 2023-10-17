@@ -11,17 +11,17 @@ fontbakery version: 0.10.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, syriac, canadian-aboriginal, old-permic, malayalam, math, tai-le, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, malayalam, tifinagh, canadian-aboriginal, math, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -261,11 +261,11 @@ multiply
 
 	* uni0409 (U+0409): X=36.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni0409 (U+0409): X=10.0,Y=-2.0 (should be at baseline 0?)
+	* uni0409 (U+0409): X=10.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni041B (U+041B): X=36.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni041B (U+041B): X=10.0,Y=-2.0 (should be at baseline 0?)
+	* uni041B (U+041B): X=10.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni0430 (U+0430): X=285.5,Y=1.0 (should be at baseline 0?)
 
@@ -305,7 +305,7 @@ multiply
 
 	* Eng (U+014A): L<<86.0,0.0>--<87.0,700.0>>
 
-	* M (U+004D): L<<716.0,0.0>--<718.0,332.0>>
+	* M (U+004D): L<<718.0,0.0>--<720.0,332.0>>
 
 	* N (U+004E): L<<559.0,358.0>--<557.0,700.0>>
 
@@ -401,7 +401,7 @@ multiply
 
 	* uni0419 (U+0419): L<<644.0,700.0>--<645.0,0.0>>
 
-	* uni041C (U+041C): L<<716.0,0.0>--<718.0,332.0>>
+	* uni041C (U+041C): L<<718.0,0.0>--<720.0,332.0>>
 
 	* uni0434 (U+0434): L<<414.0,78.0>--<416.0,444.0>>
 
@@ -435,7 +435,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
