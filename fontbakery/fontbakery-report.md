@@ -11,16 +11,16 @@ fontbakery version: 0.10.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, malayalam, tai-le, old-permic, syriac, coptic, canadian-aboriginal, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, syriac, canadian-aboriginal, old-permic, malayalam, math, tai-le, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -175,6 +175,8 @@ multiply
 
 	* parenright (U+0029): X=221.0,Y=1.5 (should be at baseline 0?)
 
+	* Z (U+005A): X=551.0,Y=-1.0 (should be at baseline 0?)
+
 	* a (U+0061): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* y (U+0079): X=221.0,Y=2.0 (should be at baseline 0?)
@@ -243,6 +245,12 @@ multiply
 
 	* ycircumflex (U+0177): X=221.0,Y=2.0 (should be at baseline 0?)
 
+	* Zacute (U+0179): X=551.0,Y=-1.0 (should be at baseline 0?)
+
+	* Zdotaccent (U+017B): X=551.0,Y=-1.0 (should be at baseline 0?)
+
+	* Zcaron (U+017D): X=551.0,Y=-1.0 (should be at baseline 0?)
+
 	* uni01CE (U+01CE): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* uni02BC (U+02BC): X=148.0,Y=698.0 (should be at cap-height 700?)
@@ -278,204 +286,14 @@ multiply
 	* uni1E9E (U+1E9E): X=277.0,Y=1.0 (should be at baseline 0?)
 
 	* ygrave (U+1EF3): X=221.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
+* ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* one (U+0031) contains a short segment L<<226.0,603.0>--<223.0,603.0>>
+	* X (U+0058): L<<325.0,426.0>--<325.0,426.0>> -> L<<325.0,426.0>--<327.0,426.0>>
 
-	* two (U+0032) contains a short segment L<<175.0,85.0>--<175.0,82.0>>
-
-	* four (U+0034) contains a short segment L<<382.0,620.0>--<376.0,620.0>>
-
-	* five (U+0035) contains a short segment L<<141.0,395.0>--<143.0,395.0>>
-
-	* seven (U+0037) contains a short segment L<<378.0,615.0>--<378.0,618.0>>
-
-	* M (U+004D) contains a short segment L<<445.0,118.0>--<448.0,118.0>>
-
-	* M (U+004D) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
-
-	* a (U+0061) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* b (U+0062) contains a short segment L<<148.0,452.0>--<150.0,452.0>>
-
-	* d (U+0064) contains a short segment L<<432.0,66.0>--<430.0,66.0>>
-
-	* e (U+0065) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* g (U+0067) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
-
-	* h (U+0068) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* m (U+006D) contains a short segment L<<149.0,467.0>--<151.0,467.0>>
-
-	* m (U+006D) contains a short segment L<<468.0,334.0>--<468.0,334.0>>
-
-	* m (U+006D) contains a short segment B<<468.0,334.0>-<468.0,332.0>-<468.0,330.0>>
-
-	* n (U+006E) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* p (U+0070) contains a short segment L<<146.0,453.0>--<148.0,453.0>>
-
-	* q (U+0071) contains a short segment L<<429.0,68.0>--<427.0,68.0>>
-
-	* r (U+0072) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
-
-	* u (U+0075) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* ordfeminine (U+00AA) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* AE (U+00C6) contains a short segment L<<470.0,602.0>--<465.0,602.0>>
-
-	* agrave (U+00E0) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* aacute (U+00E1) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* acircumflex (U+00E2) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* atilde (U+00E3) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* adieresis (U+00E4) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* aring (U+00E5) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* ae (U+00E6) contains a short segment L<<459.0,236.0>--<459.0,234.0>>
-
-	* egrave (U+00E8) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* eacute (U+00E9) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* ecircumflex (U+00EA) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* edieresis (U+00EB) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* ntilde (U+00F1) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* ugrave (U+00F9) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* uacute (U+00FA) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* ucircumflex (U+00FB) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* udieresis (U+00FC) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* thorn (U+00FE) contains a short segment L<<146.0,453.0>--<148.0,453.0>>
-
-	* amacron (U+0101) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* abreve (U+0103) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* aogonek (U+0105) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* dcaron (U+010F) contains a short segment L<<432.0,66.0>--<430.0,66.0>>
-
-	* dcroat (U+0111) contains a short segment L<<432.0,66.0>--<430.0,66.0>>
-
-	* emacron (U+0113) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* edotaccent (U+0117) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* eogonek (U+0119) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* ecaron (U+011B) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* gbreve (U+011F) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
-
-	* gdotaccent (U+0121) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
-
-	* uni0123 (U+0123) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
-
-	* hbar (U+0127) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* nacute (U+0144) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* uni0146 (U+0146) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* ncaron (U+0148) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* eng (U+014B) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
-
-	* oe (U+0153) contains a short segment L<<522.0,236.0>--<522.0,234.0>>
-
-	* racute (U+0155) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
-
-	* uni0157 (U+0157) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
-
-	* rcaron (U+0159) contains a short segment L<<146.0,433.0>--<148.0,433.0>>
-
-	* umacron (U+016B) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* ubreve (U+016D) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* uring (U+016F) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* uhungarumlaut (U+0171) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* uogonek (U+0173) contains a short segment L<<398.0,56.0>--<396.0,56.0>>
-
-	* uni01CE (U+01CE) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* uni0402 (U+0402) contains a short segment L<<345.0,368.0>--<347.0,368.0>>
-
-	* uni0409 (U+0409) contains a short segment L<<10.0,81.0>--<25.0,81.0>>
-
-	* uni040B (U+040B) contains a short segment L<<345.0,379.0>--<346.0,379.0>>
-
-	* uni041B (U+041B) contains a short segment L<<10.0,81.0>--<25.0,81.0>>
-
-	* uni041C (U+041C) contains a short segment L<<445.0,118.0>--<448.0,118.0>>
-
-	* uni041C (U+041C) contains a short segment L<<174.0,544.0>--<170.0,544.0>>
-
-	* uni0430 (U+0430) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
-
-	* uni0435 (U+0435) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* uni0436 (U+0436) contains a short segment L<<296.0,313.0>--<314.0,313.0>>
-
-	* uni0436 (U+0436) contains a short segment L<<398.0,313.0>--<414.0,313.0>>
-
-	* uni0436 (U+0436) contains a short segment L<<407.0,240.0>--<398.0,240.0>>
-
-	* uni0436 (U+0436) contains a short segment L<<314.0,240.0>--<303.0,240.0>>
-
-	* uni043A (U+043A) contains a short segment L<<150.0,313.0>--<164.0,313.0>>
-
-	* uni043A (U+043A) contains a short segment L<<159.0,240.0>--<150.0,240.0>>
-
-	* uni043B (U+043B) contains a short segment L<<12.0,76.0>--<26.0,76.0>>
-
-	* uni043C (U+043C) contains a short segment L<<349.0,102.0>--<352.0,102.0>>
-
-	* uni043C (U+043C) contains a short segment L<<147.0,377.0>--<144.0,377.0>>
-
-	* uni0440 (U+0440) contains a short segment L<<146.0,453.0>--<148.0,453.0>>
-
-	* uni0450 (U+0450) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* uni0451 (U+0451) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
-
-	* uni0452 (U+0452) contains a short segment L<<256.0,464.0>--<258.0,464.0>>
-
-	* uni0452 (U+0452) contains a short segment L<<420.0,-114.0>--<440.0,-114.0>>
-
-	* uni0459 (U+0459) contains a short segment L<<12.0,76.0>--<26.0,76.0>>
-
-	* uni045B (U+045B) contains a short segment L<<256.0,464.0>--<258.0,464.0>>
-
-	* uni045C (U+045C) contains a short segment L<<150.0,313.0>--<164.0,313.0>>
-
-	* uni045C (U+045C) contains a short segment L<<159.0,240.0>--<150.0,240.0>>
-
-	* Euro (U+20AC) contains a short segment B<<124.0,352.0>-<124.0,365.0>-<125.0,377.0>>
-
-	* Euro (U+20AC) contains a short segment B<<209.0,377.0>-<209.0,365.0>-<209.0,352.0>>
-
-	* trademark (U+2122) contains a short segment L<<546.0,418.0>--<548.0,418.0>>
-
-	* trademark (U+2122) contains a short segment L<<408.0,632.0>--<406.0,632.0>> [code: found-short-segments]
+	* uni0425 (U+0425): L<<325.0,426.0>--<325.0,426.0>> -> L<<325.0,426.0>--<327.0,426.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -504,6 +322,22 @@ multiply
 	* Ntilde (U+00D1): L<<559.0,358.0>--<557.0,700.0>>
 
 	* Ntilde (U+00D1): L<<86.0,0.0>--<87.0,700.0>>
+
+	* Z (U+005A): L<<157.0,82.0>--<551.0,81.0>>
+
+	* Z (U+005A): L<<551.0,-1.0>--<48.0,0.0>>
+
+	* Zacute (U+0179): L<<157.0,82.0>--<551.0,81.0>>
+
+	* Zacute (U+0179): L<<551.0,-1.0>--<48.0,0.0>>
+
+	* Zcaron (U+017D): L<<157.0,82.0>--<551.0,81.0>>
+
+	* Zcaron (U+017D): L<<551.0,-1.0>--<48.0,0.0>>
+
+	* Zdotaccent (U+017B): L<<157.0,82.0>--<551.0,81.0>>
+
+	* Zdotaccent (U+017B): L<<551.0,-1.0>--<48.0,0.0>>
 
 	* ampersand (U+0026): L<<664.0,370.0>--<665.0,255.0>>
 
@@ -601,7 +435,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
