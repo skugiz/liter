@@ -16,9 +16,9 @@ fontbakery version: 0.10.1
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, math, malayalam, tifinagh, old-permic, syriac, tai-le
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, malayalam, tai-le, old-permic, syriac, coptic, canadian-aboriginal, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -251,8 +251,6 @@ multiply
 
 	* tildecomb (U+0303): X=198.5,Y=701.0 (should be at cap-height 700?)
 
-	* uni0402 (U+0402): X=345.0,Y=2.0 (should be at baseline 0?)
-
 	* uni0409 (U+0409): X=36.0,Y=-2.0 (should be at baseline 0?)
 
 	* uni0409 (U+0409): X=10.0,Y=-2.0 (should be at baseline 0?)
@@ -285,7 +283,15 @@ multiply
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* one (U+0031) contains a short segment L<<226.0,603.0>--<223.0,603.0>>
+
+	* two (U+0032) contains a short segment L<<175.0,85.0>--<175.0,82.0>>
+
 	* four (U+0034) contains a short segment L<<382.0,620.0>--<376.0,620.0>>
+
+	* five (U+0035) contains a short segment L<<141.0,395.0>--<143.0,395.0>>
+
+	* seven (U+0037) contains a short segment L<<378.0,615.0>--<378.0,618.0>>
 
 	* M (U+004D) contains a short segment L<<445.0,118.0>--<448.0,118.0>>
 
@@ -302,6 +308,8 @@ multiply
 	* g (U+0067) contains a short segment L<<428.0,72.0>--<424.0,72.0>>
 
 	* h (U+0068) contains a short segment L<<150.0,464.0>--<152.0,464.0>>
+
+	* m (U+006D) contains a short segment L<<149.0,467.0>--<151.0,467.0>>
 
 	* m (U+006D) contains a short segment L<<468.0,334.0>--<468.0,334.0>>
 
@@ -411,8 +419,6 @@ multiply
 
 	* uni0402 (U+0402) contains a short segment L<<345.0,368.0>--<347.0,368.0>>
 
-	* uni0402 (U+0402) contains a short segment L<<345.0,2.0>--<346.0,0.0>>
-
 	* uni0409 (U+0409) contains a short segment L<<10.0,81.0>--<25.0,81.0>>
 
 	* uni040B (U+040B) contains a short segment L<<345.0,379.0>--<346.0,379.0>>
@@ -426,6 +432,18 @@ multiply
 	* uni0430 (U+0430) contains a short segment L<<374.0,63.0>--<372.0,63.0>>
 
 	* uni0435 (U+0435) contains a short segment L<<128.0,236.0>--<128.0,234.0>>
+
+	* uni0436 (U+0436) contains a short segment L<<296.0,313.0>--<314.0,313.0>>
+
+	* uni0436 (U+0436) contains a short segment L<<398.0,313.0>--<414.0,313.0>>
+
+	* uni0436 (U+0436) contains a short segment L<<407.0,240.0>--<398.0,240.0>>
+
+	* uni0436 (U+0436) contains a short segment L<<314.0,240.0>--<303.0,240.0>>
+
+	* uni043A (U+043A) contains a short segment L<<150.0,313.0>--<164.0,313.0>>
+
+	* uni043A (U+043A) contains a short segment L<<159.0,240.0>--<150.0,240.0>>
 
 	* uni043B (U+043B) contains a short segment L<<12.0,76.0>--<26.0,76.0>>
 
@@ -446,6 +464,10 @@ multiply
 	* uni0459 (U+0459) contains a short segment L<<12.0,76.0>--<26.0,76.0>>
 
 	* uni045B (U+045B) contains a short segment L<<256.0,464.0>--<258.0,464.0>>
+
+	* uni045C (U+045C) contains a short segment L<<150.0,313.0>--<164.0,313.0>>
+
+	* uni045C (U+045C) contains a short segment L<<159.0,240.0>--<150.0,240.0>>
 
 	* Euro (U+20AC) contains a short segment B<<124.0,352.0>-<124.0,365.0>-<125.0,377.0>>
 
@@ -579,7 +601,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
