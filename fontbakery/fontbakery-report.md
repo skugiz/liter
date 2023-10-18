@@ -16,11 +16,11 @@ fontbakery version: 0.10.1
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, canadian-aboriginal, coptic, tai-le, malayalam, tifinagh, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, syriac, malayalam, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -373,15 +373,15 @@ multiply
 
 	* minus (U+2212): L<<37.0,349.0>--<516.0,350.0>>
 
-	* p (U+0070): L<<148.0,68.0>--<150.0,-200.0>>
+	* p (U+0070): L<<148.0,68.0>--<150.0,-186.0>>
 
-	* q (U+0071): L<<427.0,-200.0>--<429.0,68.0>>
+	* q (U+0071): L<<427.0,-186.0>--<429.0,68.0>>
 
 	* sterling (U+00A3): L<<206.0,82.0>--<526.0,84.0>>
 
 	* sterling (U+00A3): L<<526.0,2.0>--<50.0,0.0>>
 
-	* thorn (U+00FE): L<<148.0,68.0>--<150.0,-200.0>>
+	* thorn (U+00FE): L<<148.0,68.0>--<150.0,-186.0>>
 
 	* uni013C (U+013C): L<<76.0,0.0>--<75.0,733.0>>
 
@@ -407,7 +407,7 @@ multiply
 
 	* uni0434 (U+0434): L<<502.0,520.0>--<500.0,78.0>>
 
-	* uni0440 (U+0440): L<<148.0,68.0>--<150.0,-200.0>>
+	* uni0440 (U+0440): L<<148.0,68.0>--<150.0,-186.0>>
 
 	* uni0442 (U+0442): L<<194.0,0.0>--<196.0,444.0>>
 
@@ -435,7 +435,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
