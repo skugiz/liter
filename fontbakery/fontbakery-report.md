@@ -18,10 +18,10 @@ fontbakery version: 0.10.1
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, syriac, malayalam, tifinagh, coptic, math
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, coptic, malayalam, old-permic, math, syriac, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -171,9 +171,7 @@ multiply
 
 	* numbersign (U+0023): X=96.0,Y=1.0 (should be at baseline 0?)
 
-	* parenleft (U+0028): X=163.0,Y=1.5 (should be at baseline 0?)
-
-	* parenright (U+0029): X=221.0,Y=1.5 (should be at baseline 0?)
+	* Q (U+0051): X=449.0,Y=-2.0 (should be at baseline 0?)
 
 	* Z (U+005A): X=551.0,Y=-1.0 (should be at baseline 0?)
 
@@ -339,7 +337,7 @@ multiply
 
 	* Zdotaccent (U+017B): L<<551.0,-1.0>--<48.0,0.0>>
 
-	* ampersand (U+0026): L<<664.0,370.0>--<665.0,255.0>>
+	* ampersand (U+0026): L<<657.0,370.0>--<658.0,255.0>>
 
 	* divide (U+00F7): L<<37.0,349.0>--<516.0,350.0>>
 
@@ -435,7 +433,7 @@ multiply
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
