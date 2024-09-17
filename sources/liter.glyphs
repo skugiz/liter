@@ -25,7 +25,7 @@ Ya re
 Ск/y.ss01 gгаров
 СК/U-cy.ss01 ГАРОВ",
 "̨ĮA",
-A,
+"abcdefghijklțmnoprstuvwxyz",
 "ı"
 );
 customParameters = (
@@ -679,8 +679,36 @@ fontMaster = (
 {
 customParameters = (
 {
+name = hheaAscender;
+value = 1000;
+},
+{
+name = hheaDescender;
+value = -300;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = typoDescender;
+value = -300;
+},
+{
 name = typoLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1000;
+},
+{
+name = winDescent;
+value = 330;
 }
 );
 guides = (
@@ -713,13 +741,15 @@ pos = (0,-154);
 locked = 1;
 name = "p bottom";
 pos = (0,-280);
+},
+{
+pos = (118,739);
 }
 );
 id = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 metricValues = (
 {
-over = 12;
-pos = 1200;
+pos = 740;
 },
 {
 over = 12;
@@ -2098,14 +2128,9 @@ unicode = 99;
 },
 {
 glyphname = d;
-lastChange = "2023-07-03 08:44:44 +0000";
+lastChange = "2024-09-17 22:34:01 +0000";
 layers = (
 {
-guides = (
-{
-pos = (118,739);
-}
-);
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 shapes = (
 {
@@ -2634,9 +2659,14 @@ unicode = 111;
 },
 {
 glyphname = p;
-lastChange = "2024-09-17 22:02:07 +0000";
+lastChange = "2024-09-17 22:41:52 +0000";
 layers = (
 {
+guides = (
+{
+pos = (198,-186);
+}
+);
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 shapes = (
 {
