@@ -638,19 +638,27 @@ code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 tag = case;
 },
 {
-automatic = 1;
 code = "sub y by y.ss01;
 sub U-cy by U-cy.ss01;
 sub be-cy by be-cy.ss01;
-sub u-cy by u-cy.ss01;
-sub zero by zero.ss01;
+sub u-cy by u-cy.ss01;";
+labels = (
+{
+language = dflt;
+value = "Stylistic Set Glyphs";
+}
+);
+tag = ss01;
+},
+{
+code = "sub zero by zero.ss01;
 sub one by one.ss01;
 sub four by four.ss01;
 ";
 labels = (
 {
 language = dflt;
-value = "";
+value = "Stylistic Set Numbers";
 }
 );
 tag = ss01;
