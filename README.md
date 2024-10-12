@@ -1,16 +1,14 @@
 # Liter 
 
-[![][Fontbakery]](https://Element-Type.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
-[![][Universal]](https://Element-Type.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://Element-Type.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://Element-Type.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://Element-Type.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://skugiz.github.io/liter/fontbakery/fontbakery-report.html)
+[![][Universal]](https://skugiz.github.io/liter/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://skugiz.github.io/liter/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://skugiz.github.io/liter/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElement-Type%2FHostGrotesk%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fskugiz%2Fliter%2Fgh-pages%2Fbadges%2Foverall.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFskugiz%2Fliter%2F%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fskugiz%2Fliter%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fskugiz%2Fliter%2Fgh-pages%2Fbadges%2FUniversal.json
 
 ![Sample Image](documentation/Liter-Promo.png)
 
