@@ -20,8 +20,7 @@ abcdefghijklmnopqrstuvwxyz  ŞȘȚŖŅ Ų
 d m 15°C
 «n•n»",
 "i̊j́ị́į́ḭ́ɨ́ɉ́і́ј́ i̋ ɨ̋/nbspace",
-"i̋ ɨ̋
-i̒ i̦̒ ì̧̒ i̵̒ i̶̒ i̷̒ i̸̒ j̒ j̣̒ j̦̒ j̧̒ j̨̒ j̵̒ j̶̒ j̷̒ j̸̒ į̒ į̣̒ į̦̒ į̧̒"
+" "
 );
 customParameters = (
 {
@@ -13534,11 +13533,11 @@ width = 607;
 glyphname = space;
 kernLeft = space;
 kernRight = space;
-lastChange = "2024-10-12 21:05:21 +0000";
+lastChange = "2024-10-12 21:08:31 +0000";
 layers = (
 {
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
-width = 280;
+width = 200;
 }
 );
 unicode = 32;
