@@ -34,6 +34,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
+- Glyph name: uni0407	Contours detected: 1	Expected: 3
+
 - Glyph name: uni0409	Contours detected: 3	Expected: 2
 
 - Glyph name: uni040A	Contours detected: 3	Expected: 2
@@ -51,6 +53,8 @@ fontbakery version: 0.12.10
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0407	Contours detected: 1	Expected: 3
 
 - Glyph name: uni0409	Contours detected: 3	Expected: 2
 
@@ -78,7 +82,9 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- uni030C.alt
+<pre><code>- gravecombgravecomb
+
+- uni030C.alt
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -121,14 +127,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, coptic, old-permic, canadian-aboriginal, tai-le, todhri, tifinagh, hebrew, math, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, duployan, hebrew, malayalam, syriac, tifinagh, canadian-aboriginal, todhri, coptic, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -139,6 +145,9 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0384 GREEK TONOS: try adding greek</li>
+<li>U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese</li>
+<li>U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese</li>
+<li>U+EEC7 : not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
