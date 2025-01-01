@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[8] Liter-Regular.ttf</summary>
+<details><summary>[7] Liter-Regular.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -28,8 +28,6 @@ fontbakery version: 0.12.10
 
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
-- Glyph name: Eng	Contours detected: 2	Expected: 1
-
 - Glyph name: OE	Contours detected: 3	Expected: 2
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -41,10 +39,6 @@ fontbakery version: 0.12.10
 - Glyph name: uni040A	Contours detected: 3	Expected: 2
 
 - Glyph name: uni0459	Contours detected: 3	Expected: 2
-
-- Glyph name: uni045A	Contours detected: 3	Expected: 2
-
-- Glyph name: Eng	Contours detected: 2	Expected: 1
 
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
@@ -61,8 +55,6 @@ fontbakery version: 0.12.10
 - Glyph name: uni040A	Contours detected: 3	Expected: 2
 
 - Glyph name: uni0459	Contours detected: 3	Expected: 2
-
-- Glyph name: uni045A	Contours detected: 3	Expected: 2
 </code></pre>
  [code: contour-count]
 
@@ -130,11 +122,11 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, duployan, old-permic, malayalam, math, tifinagh, syriac, tai-le, coptic, todhri</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, old-permic, math, syriac, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, todhri, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -282,23 +274,15 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* X (U+0058): L&lt;&lt;325.0,426.0&gt;--&lt;325.0,426.0&gt;&gt; -&gt; L&lt;&lt;325.0,426.0&gt;--&lt;327.0,426.0&gt;&gt;
-
-* m (U+006D): L&lt;&lt;468.0,334.0&gt;--&lt;468.0,330.0&gt;&gt; -&gt; L&lt;&lt;468.0,330.0&gt;--&lt;468.0,0.0&gt;&gt;
+<pre><code>* trademark (U+2122): L&lt;&lt;406.0,632.0&gt;--&lt;408.0,520.0&gt;&gt; -&gt; L&lt;&lt;408.0,520.0&gt;--&lt;408.0,338.0&gt;&gt;
 
 * uni040E (U+040E): L&lt;&lt;112.0,700.0&gt;--&lt;260.0,415.0&gt;&gt; -&gt; L&lt;&lt;260.0,415.0&gt;--&lt;323.0,292.0&gt;&gt;
 
 * uni0423 (U+0423): L&lt;&lt;112.0,700.0&gt;--&lt;260.0,415.0&gt;&gt; -&gt; L&lt;&lt;260.0,415.0&gt;--&lt;323.0,292.0&gt;&gt;
 
-* uni0425 (U+0425): L&lt;&lt;325.0,426.0&gt;--&lt;325.0,426.0&gt;&gt; -&gt; L&lt;&lt;325.0,426.0&gt;--&lt;327.0,426.0&gt;&gt;
-
-* uni0443 (U+0443): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
-
 * uni0443 (U+0443): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
 
 * uni0443.ss01: L&lt;&lt;511.0,520.0&gt;--&lt;321.0,-13.0&gt;&gt; -&gt; L&lt;&lt;321.0,-13.0&gt;--&lt;292.0,-85.0&gt;&gt;
-
-* uni045E (U+045E): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
 
 * uni045E (U+045E): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
 
@@ -336,47 +320,19 @@ definitions.</p>
 
 * wgrave (U+1E81): L&lt;&lt;426.0,520.0&gt;--&lt;509.0,241.0&gt;&gt; -&gt; L&lt;&lt;509.0,241.0&gt;--&lt;540.0,125.0&gt;&gt;
 
-* y (U+0079): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
-
 * y (U+0079): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
 
 * y.ss01: L&lt;&lt;511.0,520.0&gt;--&lt;321.0,-13.0&gt;&gt; -&gt; L&lt;&lt;321.0,-13.0&gt;--&lt;292.0,-85.0&gt;&gt;
 
-* yacute (U+00FD): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
-
 * yacute (U+00FD): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
-
-* ycircumflex (U+0177): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
 
 * ycircumflex (U+0177): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
 
-* ydieresis (U+00FF): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
-
 * ydieresis (U+00FF): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
-
-* ygrave (U+1EF3): L&lt;&lt;108.0,520.0&gt;--&lt;216.0,239.0&gt;&gt; -&gt; L&lt;&lt;216.0,239.0&gt;--&lt;264.0,114.0&gt;&gt;
 
 * ygrave (U+1EF3): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
 
 
 
@@ -392,7 +348,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 8 | 118 | 7 | 118 | 0 | 
+| 0 | 0 | 0 | 7 | 118 | 8 | 118 | 0 | 
 | 0% | 0% | 0% | 3% | 47% | 3% | 47% | 0% | 
 
 
