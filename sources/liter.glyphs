@@ -24,7 +24,8 @@ d m 15°C
 Große 135' CS22'\",
 параграф¶
 
-Liter Text+UI"
+Liter Text+UI",
+"Ẃ"
 );
 customParameters = (
 {
@@ -15812,7 +15813,7 @@ unicode = 165;
 },
 {
 glyphname = plus;
-lastChange = "2024-10-13 10:53:30 +0000";
+lastChange = "2024-10-13 11:04:14 +0000";
 layers = (
 {
 guides = (
@@ -15825,22 +15826,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(269,583,l),
-(269,382,l),
-(80,382,l),
-(80,305,l),
-(269,305,l),
-(269,114,l),
-(351,114,l),
-(351,305,l),
-(539,305,l),
-(539,382,l),
-(351,382,l),
-(351,583,l)
+(280,583,l),
+(280,382,l),
+(91,382,l),
+(91,305,l),
+(280,305,l),
+(280,114,l),
+(362,114,l),
+(362,305,l),
+(550,305,l),
+(550,382,l),
+(362,382,l),
+(362,583,l)
 );
 }
 );
-width = 619;
+width = 640;
 }
 );
 note = plus;
@@ -15850,15 +15851,15 @@ unicode = 43;
 glyphname = minus;
 kernLeft = strokeshortcomb;
 kernRight = strokeshortcomb;
-lastChange = "2024-10-13 10:54:48 +0000";
+lastChange = "2024-10-13 11:03:18 +0000";
 layers = (
 {
 guides = (
 {
-pos = (77,426);
+pos = (67,426);
 },
 {
-pos = (85,132);
+pos = (75,132);
 }
 );
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
@@ -15866,21 +15867,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(569,388,l),
-(90,388,l),
-(90,311,l),
-(569,311,l)
+(559,388,l),
+(80,388,l),
+(80,311,l),
+(559,311,l)
 );
 }
 );
-width = 659;
+width = 640;
 }
 );
 unicode = 8722;
 },
 {
 glyphname = multiply;
-lastChange = "2024-10-13 10:54:56 +0000";
+lastChange = "2024-10-13 11:04:21 +0000";
 layers = (
 {
 guides = (
@@ -15893,30 +15894,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(535,182,l),
-(142,564,l),
-(90,510,l),
-(482,128,l)
+(541,182,l),
+(148,564,l),
+(96,510,l),
+(488,128,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(538,523,l),
-(486,572,l),
-(97,181,l),
-(153,129,l)
+(544,523,l),
+(492,572,l),
+(103,181,l),
+(159,129,l)
 );
 }
 );
-width = 628;
+width = 640;
 }
 );
 unicode = 215;
 },
 {
 glyphname = divide;
-lastChange = "2024-10-13 10:54:52 +0000";
+lastChange = "2024-10-13 11:03:20 +0000";
 layers = (
 {
 guides = (
@@ -15948,19 +15949,19 @@ nodes = (
 );
 }
 );
-width = 659;
+width = 640;
 }
 );
 unicode = 247;
 },
 {
 glyphname = equal;
-lastChange = "2024-10-13 10:55:01 +0000";
+lastChange = "2024-10-13 11:04:08 +0000";
 layers = (
 {
 guides = (
 {
-pos = (-228,351);
+pos = (-218,351);
 }
 );
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
@@ -15970,23 +15971,23 @@ pos = (0,93);
 ref = minus;
 },
 {
-pos = (0,-101);
+pos = (3,-101);
 ref = minus;
 }
 );
-width = 659;
+width = 640;
 }
 );
 unicode = 61;
 },
 {
 glyphname = greater;
-lastChange = "2024-10-13 10:54:39 +0000";
+lastChange = "2024-10-13 11:03:44 +0000";
 layers = (
 {
 guides = (
 {
-pos = (-228,351);
+pos = (-218,351);
 }
 );
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
@@ -15994,41 +15995,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(90,580,l),
-(90,489,l),
-(416,348,l),
-(416,344,l),
-(90,203,l),
-(90,111,l),
-(515,308,l),
-(515,383,l)
+(125,580,l),
+(125,489,l),
+(451,348,l),
+(451,344,l),
+(125,203,l),
+(125,111,l),
+(550,308,l),
+(550,383,l)
 );
 }
 );
-width = 605;
+width = 640;
 }
 );
 unicode = 62;
 },
 {
 glyphname = less;
-lastChange = "2024-10-13 10:54:44 +0000";
+lastChange = "2024-10-13 11:03:49 +0000";
 layers = (
 {
 guides = (
 {
-pos = (-151,351);
+pos = (-156,351);
 }
 );
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 shapes = (
 {
-pos = (605,0);
+pos = (657,0);
 ref = greater;
 scale = (-1,1);
 }
 );
-width = 605;
+width = 640;
 }
 );
 unicode = 60;
