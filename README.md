@@ -21,7 +21,7 @@ Liter, designed by [Anton Skugarov](https://skugarov.com) & Aleksander Ivanin
 
 ## Building
 
-Fonts are built automatically by GitHub Actions — take a look in the "Actions" tab for the latest build.
+Fonts are built automatically by GitHub Actions  take a look in the "Actions" tab for the latest build.
 
 If you want to build fonts manually on your own computer:
 

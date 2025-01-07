@@ -3,7 +3,8 @@ venv
 venv-test
 build.stamp
 proof
-fonts
+# fonts
+out
 node_modules
 package-lock.json
 package.json
