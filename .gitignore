@@ -4,8 +4,9 @@ venv-test
 build.stamp
 proof
 # fonts
-sources/instance_ufos
+sources/instance_ufo
 sources/master_ufo
+skugiz.github.io
 out
 node_modules
 package-lock.json
