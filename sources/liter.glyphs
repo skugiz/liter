@@ -27,7 +27,7 @@ m,
 "ЃЀЁЙЍЌЎ",
 "н",
 Correct,
-"Ń"
+"1-2"
 );
 customParameters = (
 {
@@ -22987,7 +22987,7 @@ width = 230;
 glyphname = hyphen;
 kernLeft = hyphen;
 kernRight = hyphen;
-lastChange = "2024-12-11 03:28:41 +0000";
+lastChange = "2025-01-07 20:26:29 +0000";
 layers = (
 {
 background = {
@@ -28428,6 +28428,7 @@ seven = -30;
 "@MMK_R_parenright.case" = -30;
 "@MMK_R_seven" = -48;
 "@MMK_R_slash" = -20;
+"@MMK_R_two" = -20;
 "@MMK_R_uni0402" = -60;
 "@MMK_R_uni0408" = 30;
 "@MMK_R_uni0409" = -10;
