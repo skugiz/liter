@@ -25,9 +25,7 @@ m,
 "áăǎâäàāåãćčċðďđéěêëėèēğģġħíîïìīľńňñóôöòőōõŕřśšťúŭûüùűūůẃŵẅẁýŷÿỳźžż
 ѝѓґѐёйѝќўіїј",
 "ЃЀЁЙЍЌЎ",
-"н",
-Correct,
-"1-2"
+"1206"
 );
 customParameters = (
 {
@@ -22055,23 +22053,23 @@ width = 615;
 {
 glyphname = one.ss01;
 kernLeft = one;
-lastChange = "2024-12-11 03:28:41 +0000";
+lastChange = "2025-01-07 21:12:46 +0000";
 layers = (
 {
 background = {
 shapes = (
 {
 alignment = -1;
-pos = (46,0);
+pos = (-10,0);
 ref = one;
 },
 {
 closed = 1;
 nodes = (
-(86,0,l),
-(521,0,l),
-(521,82,l),
-(86,82,l)
+(30,0,l),
+(465,0,l),
+(465,82,l),
+(30,82,l)
 );
 }
 );
@@ -22080,23 +22078,22 @@ layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 shapes = (
 {
 alignment = -1;
-pos = (46,0);
+pos = (-10,0);
 ref = one;
 },
 {
 closed = 1;
 nodes = (
-(86,0,l),
-(521,0,l),
-(521,82,l),
-(86,82,l)
+(30,0,l),
+(465,0,l),
+(465,82,l),
+(30,82,l)
 );
 }
 );
-width = 571;
+width = 495;
 }
 );
-metricLeft = H;
 },
 {
 glyphname = four.ss01;
