@@ -30,7 +30,8 @@ abcdefghijklmnopqrstuvwxyz
 aабвгѓґдеѐёжзийѝкќлмнoопрстуўфхчцшщџьыъљњѕєэіїјћюяђ/be-cy.ss01/u-cy.ss01 
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-АБВЃҐДЕЀЁЖЗИЙЍЌЛМНOОПРСТУЎФХЧЦШЩЏЬЫЪЉЊЅЄЭІЇЈЋЮЯЂ/U-cy.ss01"
+АБВЃҐДЕЀЁЖЗИЙЍЌЛМНOОПРСТУЎФХЧЦШЩЏЬЫЪЉЊЅЄЭІЇЈЋЮЯЂ/U-cy.ss01",
+"Эвэ    д    ы̄     турэ̄н э̄ дю̄р-дя̄р"
 );
 customParameters = (
 {
@@ -621,7 +622,10 @@ code = "lookup ccmp_soft_dotted {
     lookupflag UseMarkFilteringSet @CombiningTopAccents;
     sub [i j idotbelow iogonek itildebelow istroke jstroke i-cy je-cy]' @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb idotless_tildebelowcomb istroke.dotless jstroke.dotless idotless jdotless];
 } ccmp_soft_dotted;
-";
+
+lookup macron_positioning {
+    pos yeru-cy macroncomb <0 400 0 0>;
+} macron_positioning;";
 tag = ccmp;
 },
 {
@@ -11868,7 +11872,7 @@ unicode = 322;
 glyphname = nacute;
 kernLeft = m;
 kernRight = a;
-lastChange = "2025-01-08 14:17:18 +0000";
+lastChange = "2025-01-08 21:22:27 +0000";
 layers = (
 {
 background = {
@@ -11900,7 +11904,7 @@ ref = n;
 },
 {
 alignment = -1;
-pos = (200,1);
+pos = (197,1);
 ref = acutecomb;
 }
 );
@@ -14711,7 +14715,7 @@ unicode = 771;
 },
 {
 glyphname = macroncomb;
-lastChange = "2025-01-08 21:00:49 +0000";
+lastChange = "2025-01-08 21:29:02 +0000";
 layers = (
 {
 anchors = (
@@ -21074,13 +21078,13 @@ unicode = 1100;
 glyphname = "yeru-cy";
 kernLeft = i;
 kernRight = i;
-lastChange = "2025-01-08 21:14:18 +0000";
+lastChange = "2025-01-08 21:26:29 +0000";
 layers = (
 {
 anchors = (
 {
 name = top;
-pos = (344,520);
+pos = (345,520);
 }
 );
 background = {
@@ -31079,7 +31083,7 @@ endash = {
 "@MMK_R_A" = 30;
 };
 "ereversed-cy" = {
-macroncomb = -525;
+macroncomb = 0;
 };
 g = {
 "@MMK_R_b" = 0;
@@ -31099,7 +31103,7 @@ one = -32;
 three = -40;
 };
 "ia-cy" = {
-macroncomb = -490;
+macroncomb = 0;
 };
 iacute = {
 icircumflex = 60;
@@ -31122,7 +31126,7 @@ macroncomb = 0;
 tildecomb = 0;
 };
 "iu-cy" = {
-macroncomb = -530;
+macroncomb = 0;
 };
 macroncomb = {
 "@MMK_R_d" = 0;
@@ -31217,9 +31221,6 @@ two = {
 };
 y.ss01 = {
 "@MMK_R_c" = -25;
-};
-"yeru-cy" = {
-macroncomb = -600;
 };
 zero = {
 eight = 0;
