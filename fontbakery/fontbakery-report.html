@@ -998,6 +998,8 @@ immediately.
                             <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- gravecombgravecomb
 
+- uni0306.cy
+
 - uni030C.alt
 </code></pre>
 
@@ -1962,12 +1964,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, tifinagh, hebrew, math, duployan, tai-le, malayalam, canadian-aboriginal, syriac, old-permic, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tai-le, duployan, tifinagh, math, old-permic, canadian-aboriginal, hebrew, coptic, todhri, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -1981,7 +1983,7 @@ definitions.</p>
 <li>U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese</li>
 <li>U+EEC7 : not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>latin</code>, <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
 
                             
                              [code: unreachable-subsetting]
@@ -2264,10 +2266,6 @@ definitions.</p>
 
 * a (U+0061): X=286.0,Y=0.5 (should be at baseline 0?)
 
-* Lcaron (U+013D): X=403.0,Y=699.0 (should be at cap-height 700?)
-
-* Lcaron (U+013D): X=517.0,Y=699.0 (should be at cap-height 700?)
-
 * OE (U+0152): X=598.0,Y=1.0 (should be at baseline 0?)
 
 * OE (U+0152): X=598.0,Y=701.0 (should be at cap-height 700?)
@@ -2296,13 +2294,11 @@ definitions.</p>
 
 * atilde (U+00E3): X=286.0,Y=0.5 (should be at baseline 0?)
 
+* atilde (U+00E3): X=292.0,Y=698.0 (should be at cap-height 700?)
+
 * eth (U+00F0): X=250.5,Y=700.5 (should be at cap-height 700?)
 
-* ntilde (U+00F1): X=326.5,Y=698.0 (should be at cap-height 700?)
-
 * oslash (U+00F8): X=189.0,Y=1.5 (should be at baseline 0?)
-
-* tildecomb (U+0303): X=198.5,Y=701.0 (should be at cap-height 700?)
 
 * ordfeminine (U+00AA): X=286.0,Y=0.5 (should be at baseline 0?)
 
@@ -2410,6 +2406,10 @@ definitions.</p>
 * uni0443.ss01: L&lt;&lt;511.0,520.0&gt;--&lt;321.0,-13.0&gt;&gt; -&gt; L&lt;&lt;321.0,-13.0&gt;--&lt;292.0,-85.0&gt;&gt;
 
 * uni045E (U+045E): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
+
+* uni04EE (U+04EE): L&lt;&lt;112.0,700.0&gt;--&lt;260.0,415.0&gt;&gt; -&gt; L&lt;&lt;260.0,415.0&gt;--&lt;323.0,292.0&gt;&gt;
+
+* uni04EF (U+04EF): L&lt;&lt;266.0,114.0&gt;--&lt;312.0,239.0&gt;&gt; -&gt; L&lt;&lt;312.0,239.0&gt;--&lt;415.0,520.0&gt;&gt;
 
 * v (U+0076): L&lt;&lt;104.0,520.0&gt;--&lt;200.0,256.0&gt;&gt; -&gt; L&lt;&lt;200.0,256.0&gt;--&lt;251.0,110.0&gt;&gt;
 
