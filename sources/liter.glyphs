@@ -30,7 +30,8 @@ abcdefghijklmnopqrstuvwxyz
 aабвгѓґдеѐёжзийѝкќлмнoопрстуўфхчцшщџьыъљњѕєэіїјћюяђ/be-cy.ss01/u-cy.ss01 
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-АБВЃҐДЕЀЁЖЗИЙЍЌЛМНOОПРСТУЎФХЧЦШЩЏЬЫЪЉЊЅЄЭІЇЈЋЮЯЂ/U-cy.ss01"
+АБВЃҐДЕЀЁЖЗИЙЍЌЛМНOОПРСТУЎФХЧЦШЩЏЬЫЪЉЊЅЄЭІЇЈЋЮЯЂ/U-cy.ss01",
+"Эвэды̄ турэ̄н э̄ дю̄р-дя̄р"
 );
 customParameters = (
 {
@@ -19308,7 +19309,7 @@ unicode = 1169;
 glyphname = "de-cy";
 kernLeft = o;
 kernRight = v;
-lastChange = "2024-12-11 03:28:41 +0000";
+lastChange = "2025-01-08 22:55:48 +0000";
 layers = (
 {
 background = {
@@ -29805,6 +29806,7 @@ seven = -30;
 "@MMK_R_c" = 15;
 "@MMK_R_comma" = -40;
 "@MMK_R_four" = 30;
+"@MMK_R_o" = -30;
 "@MMK_R_parenright" = -30;
 "@MMK_R_parenright.case" = -30;
 "@MMK_R_seven" = -48;
