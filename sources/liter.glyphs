@@ -18862,7 +18862,7 @@ unicode = 1272;
 glyphname = "U-cy.ss01";
 kernLeft = X;
 kernRight = Y;
-lastChange = "2025-01-13 11:16:11 +0000";
+lastChange = "2025-01-13 11:16:23 +0000";
 layers = (
 {
 background = {
@@ -18912,7 +18912,7 @@ nodes = (
 (224,97,o),
 (189,71,o),
 (140,71,cs),
-(119,71,o),
+(118,71,o),
 (104,72,o),
 (100,75,c),
 (100,-4,l),
