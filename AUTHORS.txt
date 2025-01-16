@@ -6,4 +6,4 @@
 # Name or Organization <email address>
 
 Anton Skugarov <skugiz@gmail.com>
-Aleksander Ivanin <aliv65@icloud.com>
+Alexandr Ivanin <aliv65@icloud.com>
