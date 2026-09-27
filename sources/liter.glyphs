@@ -7550,7 +7550,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (247,36);
+pos = (389,756);
 ref = commaaccentcomb;
 }
 );
@@ -13026,7 +13026,7 @@ alignment = -1;
 ref = t;
 },
 {
-pos = (137,36);
+pos = (306,796);
 ref = commaaccentcomb;
 }
 );
@@ -18305,7 +18305,7 @@ ref = I;
 layerId = "1C9972D2-AAA2-4EE5-9F28-188B121D2056";
 shapes = (
 {
-ref = I;
+ref = Idieresis;
 }
 );
 width = 260;

@@ -1,9 +1,10 @@
 buildStatic: true
-buildVariable: false
+buildVariable: true
 buildTTF: true
 buildOTF: false
 buildWebfont: true
-# removeOutlineOverlaps: false
+# `make build` generates Light/Regular/Bold masters (300–700) from liter.glyphs.
+# Static releases are instantiated from the final variable font so they match.
 sources:
-  - liter.glyphs
+  - generated/Liter.designspace
 familyName: Liter

@@ -1,7 +1,7 @@
-SOURCES=$(shell python3 scripts/read-config.py --sources )
+SOURCES=sources/liter.glyphs scripts/build-family.py
 FAMILY=$(shell python3 scripts/read-config.py --family )
-DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
-DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
+DRAWBOT_SCRIPTS=$(wildcard documentation/*.py)
+DRAWBOT_OUTPUT=$(DRAWBOT_SCRIPTS:.py=.png)
 
 help:
 	@echo "###"
@@ -23,25 +23,28 @@ venv-test: venv-test/touchfile
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
-build.stamp: venv sources/config.yaml $(SOURCES)
-	rm -rf fonts
-	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
+build.stamp: venv/touchfile sources/config.yaml $(SOURCES)
+	venv/bin/python scripts/build-family.py
+	touch build.stamp
 
-venv/touchfile: requirements.txt
+venv/touchfile: requirements.txt requirements.in
 	test -d venv || python3 -m venv venv
-	. venv/bin/activate; pip install -Ur requirements.txt
+	venv/bin/python -m pip install -r requirements.txt
 	touch venv/touchfile
 
-venv-test/touchfile: requirements-test.txt
+venv-test/touchfile: requirements-test.txt requirements-test.in
 	test -d venv-test || python3 -m venv venv-test
-	. venv-test/bin/activate; pip install -Ur requirements-test.txt
+	venv-test/bin/python -m pip install -r requirements-test.txt
 	touch venv-test/touchfile
 
 test: venv-test build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+	venv-test/bin/python scripts/validate-family.py
+	mkdir -p out/fontbakery
+	venv-test/bin/fontbakery check-universal fonts/ttf/*.ttf -l WARN --succinct --json out/fontbakery/static.json --html out/fontbakery/static.html
+	venv-test/bin/fontbakery check-universal 'fonts/variable/Liter[wght].ttf' -l WARN --succinct --badges out/badges --json out/fontbakery/variable.json --html out/fontbakery/fontbakery-report.html
 
 proof: venv build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
+	venv/bin/python scripts/proof-family.py
 
 images: venv $(DRAWBOT_OUTPUT)
 

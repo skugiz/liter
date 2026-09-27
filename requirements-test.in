@@ -1,2 +1,7 @@
-fontbakery[googlefonts]>=0.9.2
-gftools[qa]>=0.9.23
+fontbakery[googlefonts]==1.1.0
+setuptools==80.10.2
+glyphsLib==6.15.0
+fonttools[woff]==4.65.0
+skia-pathops==0.9.2
+opentype-sanitizer==9.2.0
+uharfbuzz==0.56.2

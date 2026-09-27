@@ -1,2 +1,29 @@
+27 September 2026 — Version 1.101
 
+Rebuilt a focused Light–Bold family (300, 400, 500, 600, 700) and a matching
+300–700 variable font. Retired Thin, ExtraLight, ExtraBold, and Black after
+visual review found uneven strokes and disproportionate dots at the extremes.
 
+The new endpoints are derived directly from Regular. Main letter strokes use
+consistent offsets; dots follow the stem change in both dimensions while
+retaining their optical centers. Paired dots spread symmetrically for reading
+size clarity. Diagonal and curved accents use a separate, consistent profile.
+Added binary measurements of stem consistency, dot/stem ratios, dot centers,
+dieresis gaps, and accent proportions, alongside 16/24/48 px visual proofs.
+
+27 September 2026 — Version 1.100 (superseded)
+
+Added an algorithmically derived upright weight family from Thin (100) to
+Black (900), with nine static TTFs, a variable wght TTF, and matching WOFF2s.
+The original Regular design is the reference; no additional designer-authored
+masters were present in the repository. Generation preserves compatible cubic
+point topology and applies local limits to protect counters and joins.
+
+Corrected uppercase Ukrainian Yi (U+0407): its source component referenced I
+without a dieresis; it now references Idieresis. Advance widths are unchanged.
+Corrected Lcaron (U+013D) and tcaron (U+0165), whose comma-shaped carons were
+incorrectly placed below the baseline. They now sit in the upper-right position.
+
+Added reproducible source generation, locked build dependencies, a FontBakery
+Universal check, OpenType Sanitizer validation, static/variable equivalence
+checks, Latin/Cyrillic shaping checks, and complete glyph proofs.

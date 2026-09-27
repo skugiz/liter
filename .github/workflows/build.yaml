@@ -19,7 +19,9 @@ jobs:
         sudo snap install yq
     - uses: actions/cache@v4
       with:
-        path: ./venv/
+        path: |
+          ./venv/
+          ./venv-test/
         key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
         restore-keys: |
           ${{ runner.os }}-venv-
@@ -46,7 +48,6 @@ jobs:
       run: make build
     - name: Check with fontbakery
       run: make test
-      continue-on-error: true
     - name: proof
       run: make proof
     - name: setup site
@@ -63,6 +64,7 @@ jobs:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
+          sources/generated
           out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}

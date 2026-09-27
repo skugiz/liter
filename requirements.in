@@ -1,6 +1,14 @@
-fontmake>=3.9.0
-gftools[qa]>=0.9.54
-drawbot-skia>=0.5.0
-sh>=2.0.6
-bumpfontversion>=0.4.1
-diffenator2>=0.3.8
+fontmake==3.10.1
+fonttools[woff]==4.65.0
+glyphsLib==6.15.0
+ufo2ft==3.9.0
+ufoLib2==0.18.1
+skia-pathops==0.9.2
+# FontTools uses this optional dependency to pack OpenType layout tables.
+# Pin it explicitly so clean builds use the same table representation.
+uharfbuzz==0.56.2
+PyYAML==6.0.3
+Pillow==11.3.0
+# Repository customization helper.
+sh==2.2.2
+requests==2.34.2
